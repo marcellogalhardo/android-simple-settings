@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.marcellogalhardo.simplesettings">
+
+    <application android:allowBackup="true">
+
+        <activity
+            android:name=".ui.SimpleSettingsActivity"
+            android:theme="@style/SimpleSettingsTheme" />
+
+    </application>
+
+</manifest>

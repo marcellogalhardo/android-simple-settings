@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_send_by_email"
+        android:title="@string/send_by_email"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_copy_to_clipboard"
+        android:title="@string/copy_to_clipboard"
+        app:showAsAction="never" />
+</menu>

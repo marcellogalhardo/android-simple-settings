@@ -1,0 +1,63 @@
+<resources>
+    <!-- App -->
+    <string name="settings">Settings</string>
+    <string name="line_break">\n</string>
+
+    <!-- Messages -->
+    <string name="settings_successfully_saved">Settings successfully saved</string>
+    <string name="default_settings_have_been_restored">Default settings have been restored</string>
+    <string name="email_sent_successfully">E-mail sent successfully</string>
+    <string name="settings_successfully_copy_to_clipboard">Settings successfully copied</string>
+
+    <!-- Button -->
+    <string name="button_save">Save</string>
+    <string name="button_restore_default">Restore default</string>
+
+    <!-- Menu -->
+    <string name="send_by_email">Send by email</string>
+    <string name="copy_to_clipboard">Copy to clipboard</string>
+
+    <!-- Http -->
+    <string name="server_url">Server url</string>
+    <string name="timeout">Timeout</string>
+
+    <!-- General -->
+    <string name="version_code">Version code</string>
+    <string name="version_name">Version name</string>
+    <string name="os_name">OS name</string>
+    <string name="os_sdk">OS sdk</string>
+    <string name="device_model">Device model</string>
+    <string name="device_manufacturer">Device manufacturer</string>
+
+    <!-- Screen -->
+    <string name="display_width_pixels">Display width pixels</string>
+    <string name="display_height_pixels">Display height pixels</string>
+    <string name="display_density">Display density</string>
+    <string name="display_density_dpi">Display dpi density</string>
+    <string name="display_density_scaled">Display scaled density</string>
+    <string name="display_density_type">Display density type</string>
+
+    <!-- Export -->
+    <string name="export_default_base_url">Default base url: %s</string>
+    <string name="export_default_timeout">Default timeout: %s</string>
+    <string name="export_base_url">Base url: %s</string>
+    <string name="export_timeout">Timeout: %s</string>
+    <string name="export_version_code">Version code: %d</string>
+    <string name="export_version_name">Version name: %s</string>
+    <string name="export_os_name">OS name: %s</string>
+    <string name="export_os_sdk">OS sdk: %d</string>
+    <string name="export_device_model">Device model: %s</string>
+    <string name="export_device_manufacturer">Device manufacturer: %s</string>
+    <string name="export_display_width_pixels">Display width pixels: %d</string>
+    <string name="export_display_height_pixels">Display height pixels: %d</string>
+    <string name="export_display_density">Display density: %d</string>
+    <string name="export_display_density_dpi">Display dpi density: %d</string>
+    <string name="export_display_density_scaled">Display scaled density: %d</string>
+    <string name="export_display_density_type">Display density type: %s</string>
+
+    <!-- Tabs -->
+    <string name="tab_http">Http</string>
+    <string name="tab_general">General</string>
+    <string name="tab_screen">Screen</string>
+
+</resources>

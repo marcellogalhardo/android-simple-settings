@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Settings</string>
+    <string name="server_url">Server url</string>
+    <string name="timeout">Timeout</string>
+</resources>
