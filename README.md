@@ -1,13 +1,5 @@
 # Simple Settings
 
-## Pictures
-![Settings-Http](https://github.com/marcellogalhardo/SimpleSettings/blob/master/images/settings-http.png)
-![Settings-General](https://github.com/marcellogalhardo/SimpleSettings/blob/master/images/settings-general.png)
-![Settings-Screen](https://github.com/marcellogalhardo/SimpleSettings/blob/master/images/settings-screen.png)
-![Settings-Options](https://github.com/marcellogalhardo/SimpleSettings/blob/master/images/settings-options.png)
-![Settings-Options-Copy](https://github.com/marcellogalhardo/SimpleSettings/blob/master/images/settings-options-copy.png)
-![Settings-Options-Share](https://github.com/marcellogalhardo/SimpleSettings/blob/master/images/settings-options-share.png)
-
 ## Download
 **Step 1.** Add it in your root *build.gradle* at the end of repositories:
 ```gradle
@@ -54,6 +46,14 @@ int timeout = settings.getTimeout();
 
 ## Credits
 If you think you can improve it do not be shy to make your Fork / Pull Request. I will love analyzing improvements to this code.
+
+## Pictures
+![Settings-Http](https://github.com/marcellogalhardo/SimpleSettings/blob/master/images/settings-http.png)
+![Settings-General](https://github.com/marcellogalhardo/SimpleSettings/blob/master/images/settings-general.png)
+![Settings-Screen](https://github.com/marcellogalhardo/SimpleSettings/blob/master/images/settings-screen.png)
+![Settings-Options](https://github.com/marcellogalhardo/SimpleSettings/blob/master/images/settings-options.png)
+![Settings-Options-Copy](https://github.com/marcellogalhardo/SimpleSettings/blob/master/images/settings-options-copy.png)
+![Settings-Options-Share](https://github.com/marcellogalhardo/SimpleSettings/blob/master/images/settings-options-share.png)
 
 ## License
 
