@@ -50,9 +50,9 @@
     <string name="export_device_manufacturer">Device manufacturer: %s</string>
     <string name="export_display_width_pixels">Display width pixels: %d</string>
     <string name="export_display_height_pixels">Display height pixels: %d</string>
-    <string name="export_display_density">Display density: %d</string>
-    <string name="export_display_density_dpi">Display dpi density: %d</string>
-    <string name="export_display_density_scaled">Display scaled density: %d</string>
+    <string name="export_display_density">Display density: %f</string>
+    <string name="export_display_density_dpi">Display dpi density: %f</string>
+    <string name="export_display_density_scaled">Display scaled density: %f</string>
     <string name="export_display_density_type">Display density type: %s</string>
 
     <!-- Tabs -->

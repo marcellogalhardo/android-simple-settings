@@ -25,7 +25,9 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button_settings).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                SimpleSettingsHelper.startSettingsActivityIfNotDebug(MainActivity.this);
+                if (BuildConfig.DEBUG) {
+                    SimpleSettingsHelper.startSettingsActivity(MainActivity.this);
+                }
             }
         });
     }

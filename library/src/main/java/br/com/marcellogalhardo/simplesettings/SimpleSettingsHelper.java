@@ -19,12 +19,6 @@ public class SimpleSettingsHelper {
         context.startActivity(intent);
     }
 
-    public static void startSettingsActivityIfNotDebug(Context context) {
-        if (BuildConfig.DEBUG) {
-            startSettingsActivity(context);
-        }
-    }
-
     public static SimpleSettings getSimpleSettings(Context context) {
         return new SimpleSettings.Builder()
                 .baseUrl(SharedPreferencesUtils.getString(context, SimpleSettings.BASE_URL, ""))
