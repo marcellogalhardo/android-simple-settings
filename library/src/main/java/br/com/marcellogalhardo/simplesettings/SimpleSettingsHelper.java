@@ -39,15 +39,15 @@ public class SimpleSettingsHelper {
     }
 
     public static void putDefaultSettings(Context context, SimpleSettings settings) {
-        if (!defaultSettingsAlreadyExists(context)) {
-            SharedPreferencesUtils.putString(context, SimpleSettings.DEFAULT_BASE_URL, settings.getBaseUrl());
-            SharedPreferencesUtils.putInt(context, SimpleSettings.DEFAULT_TIMEOUT, settings.getTimeout());
+        SharedPreferencesUtils.putString(context, SimpleSettings.DEFAULT_BASE_URL, settings.getBaseUrl());
+        SharedPreferencesUtils.putInt(context, SimpleSettings.DEFAULT_TIMEOUT, settings.getTimeout());
+        if (!settingsAlreadyExists(context)) {
             putSimpleSettings(context, settings);
         }
     }
 
-    private static boolean defaultSettingsAlreadyExists(Context context) {
-        return !TextUtils.isEmpty(SharedPreferencesUtils.getString(context, SimpleSettings.DEFAULT_BASE_URL, ""));
+    private static boolean settingsAlreadyExists(Context context) {
+        return !TextUtils.isEmpty(SharedPreferencesUtils.getString(context, SimpleSettings.BASE_URL, ""));
     }
 
 }
