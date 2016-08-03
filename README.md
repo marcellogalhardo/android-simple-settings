@@ -1,10 +1,10 @@
 # Simple Settings
 SimpleSettings is an easy and fast configuration manager. It allows you to manage your APP settings (like your server url) and change it at runtime, allowing effective manual tests.
 
-For more details, see [this example][sample_file].
+For more details, see [this example](https://github.com/marcellogalhardo/SimpleSettings/tree/master/images).
 
 ## Why have I created Simple Settings?
-I work delivering android software to distant customers. Sometimes it is faster an easier to simply change the server URL in the APP without needing a rebuild. For that reason, I have created this simple library to help my clients and my team to change settings on an APP that has already been built. Besides that, the configuration screen of Simple Settings allows the user to see the device settings and easily export it through e-mail or text messaging. For more information on the configuration screen, see the [images][images_folder].
+I work delivering android software to distant customers. Sometimes it is faster an easier to simply change the server URL in the APP without needing a rebuild. For that reason, I have created this simple library to help my clients and my team to change settings on an APP that has already been built. Besides that, the configuration screen of Simple Settings allows the user to see the device settings and easily export it through e-mail or text messaging. For more information on the configuration screen, see the [images](https://github.com/marcellogalhardo/SimpleSettings/blob/master/sample/src/main/java/br/com/marcellogalhardo/sample/MainActivity.java).
 
 ## Download
 **Step 1.** Add the maven repository in your project level *build.gradle* file (place it at the end of your repository list):
@@ -69,6 +69,3 @@ You may obtain a copy of the License at: [here](http://www.apache.org/licenses/L
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
-
-[images_folder][https://github.com/marcellogalhardo/SimpleSettings/tree/master/images]
-[sample_file][https://github.com/marcellogalhardo/SimpleSettings/blob/master/sample/src/main/java/br/com/marcellogalhardo/sample/MainActivity.java]
