@@ -1,5 +1,5 @@
 # Simple Settings
-SimpleSettings is an easy and fast configuration manager. It allows you to manage your APP settings (like your server url) and change it at runtime, allowing effective manual tests.
+SimpleSettings is an easy and fast server configuration manager. It allows you to manage your APP settings (like your server url) and change it at runtime, allowing effective manual tests.
 
 For more details, see [this example](https://github.com/marcellogalhardo/SimpleSettings/tree/master/images).
 
