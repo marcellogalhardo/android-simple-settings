@@ -1,13 +1,13 @@
 # Simple Settings
-SimpleSettings is a easy and fast configuration manager. It allow you to manager your APPs settings (like server url) and change it at runtime, to make effective manually tests.
+SimpleSettings is an easy and fast configuration manager. It allows you to manage your APP settings (like your server url) and change it at runtime, allowing effective manual tests.
 
 For more details, see [this example][sample_file].
 
-## Why created Simple Settings?
-I work delivering android software to distant customers, sometime is more fast to simple change the server endpoint in the APP and not do a full build. For that, I have create this simple library to help my clientes and my team to change the configs on a already builded APP. Besides that, the configuration screen of Simple Settings allow the user to see the devices settings and easily export it to an e-mail or messaging (text). For more information on the settings screen, see the [images][images_folder].
+## Why have I created Simple Settings?
+I work delivering android software to distant customers. Sometimes it is faster an easier to simply change the server URL in the APP without needing a rebuild. For that reason, I have created this simple library to help my clients and my team to change settings on an APP that has already been built. Besides that, the configuration screen of Simple Settings allows the user to see the device settings and easily export it through e-mail or text messaging. For more information on the configuration screen, see the [images][images_folder].
 
 ## Download
-**Step 1.** Add it in your root *build.gradle* at the end of repositories:
+**Step 1.** Add the maven repository in your project level *build.gradle* file (place it at the end of your repository list):
 ```gradle
 allprojects {
 	repositories {
@@ -15,7 +15,7 @@ allprojects {
 	}
 }
 ```
-**Step 2.** Add the dependency
+**Step 2.** Add the dependency in your app level *build.gradle* file:
 ```gradle
 dependencies {
 	compile 'com.github.marcellogalhardo:SimpleSettings:0.1.2'
@@ -51,7 +51,7 @@ int timeout = settings.getTimeout();
 ```
 
 # Contributors
-If you think you can improve it do not be shy to make your Fork / Pull Request. I will love analyzing improvements to this code.
+If you think you can help us improve this lib do not be affraid of Pull Requesting. I will love analyzing and discussing improvements for this lib.
 
 ## Pictures
 ![Settings-Http](https://github.com/marcellogalhardo/SimpleSettings/blob/master/images/settings-http.png)
